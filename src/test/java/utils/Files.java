@@ -116,6 +116,5 @@ public class Files { public static String readTextFromFile(File file) throws IOE
         String docsText = extractor.getText();
 
         return docsText;
-
     }
 }

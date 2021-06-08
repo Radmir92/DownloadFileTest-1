@@ -18,7 +18,6 @@ public class DocXAssetTest {
 
             String actualData = readDocxFile(docFilePath);
             assertThat(actualData, containsString(expectedText));
-
         }
     }
 }

@@ -19,7 +19,6 @@ public class DocAssert {
 
             String actualData = readDocFile(docFilePath);
             assertThat(actualData, containsString(expectedText));
-
         }
     }
 }

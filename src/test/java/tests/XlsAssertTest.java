@@ -16,6 +16,5 @@ public class XlsAssertTest {
 
         XLS xls = getXls(xlsFilePath);
         assertThat(xls, XLS.containsText(expectedText));
-
     }
 }
