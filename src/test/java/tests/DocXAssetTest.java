@@ -9,7 +9,6 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static utils.Files.readDocxFile;
 
 public class DocXAssetTest {
-    public class DocxAssertTest {
 
         @Test
         void docxAssertTest() throws IOException {
@@ -20,4 +19,4 @@ public class DocXAssetTest {
             assertThat(actualData, containsString(expectedText));
         }
     }
-}
+

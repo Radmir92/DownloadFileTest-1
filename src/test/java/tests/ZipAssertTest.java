@@ -1,5 +1,6 @@
 package tests;
 
+import org.apache.xpath.operations.String;
 import org.junit.jupiter.api.Test;
 import java.io.IOException;
 import java.util.zip.ZipException;
@@ -11,8 +12,8 @@ import static utils.Zip.unzip;
 
 public class ZipAssertTest {
     @Test
-    void zipAssertTest() throws IOException, ZipException, net.lingala.zip4j.exception.ZipException {
-        String zipFilePath = "./src/test/resources/files/1.zip";
+    void zipAssertTest() throws IOException, ZipException {
+        java.lang.String zipFilePath = "./src/test/resources/files/1.zip";
         String unzipFolderPath = "./src/test/resources/files/unzip";
         String zipPassword = "";
         String unzipTxtFilePath = "./src/test/resources/files/unzip/1.txt";
