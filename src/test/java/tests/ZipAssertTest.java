@@ -11,7 +11,7 @@ import static utils.Zip.unzip;
 
 public class ZipAssertTest {
     @Test
-    void zipAssertTest() throws IOException, ZipException {
+    void zipAssertTest() throws IOException, ZipException, net.lingala.zip4j.exception.ZipException {
         String zipFilePath = "./src/test/resources/files/1.zip";
         String unzipFolderPath = "./src/test/resources/files/unzip";
         String zipPassword = "";
