@@ -23,5 +23,6 @@ public class ZipAssertTest {
         unzip(zipFilePath, unzipFolderPath, zipPassword);
         String actualText = readTextFromPath(unzipTxtFilePath);
         assertThat(actualText, containsString(expectedText));
+// можно было сделать другим способом, но это не точно =)
     }
 }
